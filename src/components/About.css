@@ -1,5 +1,5 @@
 .about-section {
-    background: transparent;
+    background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(50px);
     padding: 60px 20px;
     text-align: center;

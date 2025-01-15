@@ -6,8 +6,8 @@ function About() {
     return (<>
         <div className='about-container'>
             <Header />
-            <section id="about" class="section about-section">
-                <div class="about-content">
+            <section id="about" className="section about-section">
+                <div className="about-content">
                     <h1>About Us</h1>
                     <p>
                         We are <strong>Abha Eco Power</strong>, your trusted partner in sustainable energy.
