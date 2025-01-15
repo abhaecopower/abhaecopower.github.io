@@ -1,0 +1,102 @@
+.career-header{
+    --text-color: black;
+}
+
+  .team {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+
+  .team h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .team-member {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 300px;
+    max-width: 300px;
+  }
+
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  .team-member h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  .team-member p {
+    font-size: 0.9rem;
+    color: #6e6e73;
+  }
+
+  .future-opportunities {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #eef2f3;
+    margin: 40px 0;
+  }
+
+  .future-opportunities h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .future-opportunities p {
+    font-size: 1rem;
+    color: #6e6e73;
+    max-width: 600px;
+    margin: 0 auto 20px;
+  }
+
+  .future-opportunities a {
+    background-color: #007aff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .future-opportunities button:hover {
+    background-color: #005bb5;
+  }
+
+  .contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #6e6e73;
+    font-size: 0.9rem;
+  }
+
+  .contact a {
+    color: #007aff;
+    text-decoration: none;
+  }
+
+  .contact a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.go-back{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    background-color: #007aff;
+    padding: 0.5rem;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 10px;
+}
+.job-container{
+    background: url('../assets/istockphoto-475352876-612x612.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.job-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.apply-form {
+    background: transparent;
+    backdrop-filter: blur(50px);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: 40px auto;
+  }
+
+  .apply-form h2 {
+    font-size: 2rem;
+    color: #fefefe;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .apply-form label {
+    font-size: 1rem;
+    color: #ede7e7;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .apply-form input,
+  .apply-form select,
+  .apply-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  .apply-form input::placeholder,
+  .apply-form select::placeholder,
+  .apply-form textarea::placeholder{
+    color: white;
+  }
+
+  .apply-form a {
+    display: block;
+    background-color: #007aff;
+    color: white;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .apply-form a:hover {
+    background-color: #005bb5;
+  }
+  @media  screen and (max-width: 700px) {
+
+    .job-wrapper{
+      height: 120vh;
+    }
+    
+  }
